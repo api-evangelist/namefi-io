@@ -1,4 +1,4 @@
-# namefi-io
+# Namefi
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-namefi-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://namefi.io/
+Namefi is an ICANN‑accredited domain registrar that tokenizes internet domain names as NFTs, enabling trading, DeFi integration, and on‑chain management of DNS records. The platform offers AI‑agentic workflows for searching, registering, renewing, and configuring domains, with a focus on faster, cheaper, and more secure domain sales for the future internet.
+
+**Areas:** Domain Registrar · Tokenized Domains · AI Agents · On‑chain Domains
+
+## Namefi on APIs.io
+
+Everything profiled for Namefi is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/namefi-io/](https://apis.io/providers/namefi-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (15)
+
+- [Namefi Admin API](https://apis.io/apis/namefi-io/namefi-io-admin-api/) — The admin API from Namefi — 3 operation(s) for admin.
+- [Namefi Auth API](https://apis.io/apis/namefi-io/namefi-io-auth-api/) — The auth API from Namefi — 10 operation(s) for auth.
+- [Namefi Balance API](https://apis.io/apis/namefi-io/namefi-io-balance-api/) — The balance API from Namefi — 3 operation(s) for balance.
+- [Namefi Base Route API](https://apis.io/apis/namefi-io/namefi-io-base-route-api/) — The base-route API from Namefi — 2 operation(s) for base-route.
+- [Namefi Ddns API](https://apis.io/apis/namefi-io/namefi-io-ddns-api/) — The ddns API from Namefi — 8 operation(s) for ddns.
+- [Namefi Dns API](https://apis.io/apis/namefi-io/namefi-io-dns-api/) — The dns API from Namefi — 16 operation(s) for dns.
+- [Namefi Domain Config API](https://apis.io/apis/namefi-io/namefi-io-domain-config-api/) — The domain-config API from Namefi — 1 operation(s) for domain-config.
+- [Namefi Eip712 API](https://apis.io/apis/namefi-io/namefi-io-eip712-api/) — The eip712 API from Namefi — 3 operation(s) for eip712.
+- [Namefi OAuth API](https://apis.io/apis/namefi-io/namefi-io-oauth-api/) — The oauth API from Namefi — 3 operation(s) for oauth.
+- [Namefi Orders API](https://apis.io/apis/namefi-io/namefi-io-orders-api/) — The orders API from Namefi — 10 operation(s) for orders.
+- [Namefi Outbound API](https://apis.io/apis/namefi-io/namefi-io-outbound-api/) — The outbound API from Namefi — 4 operation(s) for outbound.
+- [Namefi Search API](https://apis.io/apis/namefi-io/namefi-io-search-api/) — The search API from Namefi — 4 operation(s) for search.
+- [Namefi Siwe API](https://apis.io/apis/namefi-io/namefi-io-siwe-api/) — The siwe API from Namefi — 4 operation(s) for siwe.
+- [Namefi Studio API](https://apis.io/apis/namefi-io/namefi-io-studio-api/) — The studio API from Namefi — 7 operation(s) for studio.
+- [Namefi User API](https://apis.io/apis/namefi-io/namefi-io-user-api/) — The user API from Namefi — 5 operation(s) for user.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Namefi Agentic Access](https://apis.io/agentic-access/namefi-io/namefi-io-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Namefi API Rules](https://apis.io/rules/namefi-io/namefi-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Namefi Authentication](https://apis.io/security/namefi-io/namefi-io-authentication/)
+- [Namefi Domain Security](https://apis.io/security/namefi-io/namefi-io-domain-security/)
+- [Namefi Vulnerability Disclosure](https://apis.io/security/namefi-io/namefi-io-vulnerability-disclosure/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Namefi Rate Limits](https://apis.io/rate-limits/namefi-io/namefi-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://namefi.io/)
+- [Documentation](https://docs.namefi.io/)
+- [Getting started](https://docs.namefi.io/docs/03-getting-started/01-your-first-domain)
+- [API reference](https://namefi.io/developer)
+- [Sign up](https://namefi.io/r/en/blog/register-domain-name)
+- [Blog](https://blog.namefi.io/)
+- [Security](https://namefi.io/security)
+- [Terms of service](https://namefi.io/tos)
+- [Privacy policy](https://namefi.io/privacy)
+- [GitHub](https://github.com/d3servelabs)
+- [Status](https://status.namefi.io/)
+
+## API Evangelist rating
+
+**Kin Score 53.2** — developing · rubric 0.27.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 45.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 50.5 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 34.2 |
+
+**Agent readiness 49.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/namefi-io/](https://apis.io/providers/namefi-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Namefi: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/namefi-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
